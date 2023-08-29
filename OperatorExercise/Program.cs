@@ -4,13 +4,14 @@
     {
         static void Main(string[] args)
         {
-            //    int x = 100; //Exercise 1
-            //    int y = 2;
-            //    Console.WriteLine(x + y);
-            //    Console.WriteLine(x - y);
-            //    Console.WriteLine(x * y);
-            //    Console.WriteLine(x / y);
-            //    Console.WriteLine(x % ++y);
+            int x = 100; //Exercise 1
+            int y = 2;
+            Console.WriteLine(x + y);
+            Console.WriteLine(x - y);
+            Console.WriteLine(x * y);
+
+            int a = 17; int b = 4;
+            Console.WriteLine(a + "/" + b + " is " + a / b + " remainder " + a % b); 
 
             Console.WriteLine("Hello! Please input a number " +
                 "to be used as the radius of a circle.");
