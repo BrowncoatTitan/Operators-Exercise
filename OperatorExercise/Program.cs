@@ -18,7 +18,7 @@
             double o;
             double.TryParse(Console.ReadLine(), out o);
             string formattedArea = Circle.AreaOfCircle(o).ToString("0.00");
-            Console.WriteLine(formattedArea);
+            Console.WriteLine($"The area of a circle with a radisu of {o} is {formattedArea}");
         }
     }
 }
